@@ -1,5 +1,6 @@
 #include "project_dosApp.h"
 #include "Card.h"
+#include "binaryCardStorage.h"
 int main() {
 	/*
 	// allocation
@@ -14,8 +15,9 @@ int main() {
 	return 0;
 	*/
 
-	Card assassin;
-	Card knight;
+	BinaryCardStorage Library;
+	Library.CreateCard();
+
 
 	return 0;
 }
